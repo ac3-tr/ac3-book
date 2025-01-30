@@ -1,0 +1,13 @@
+---
+authors:
+  - Andreas Macke
+  - Roel Neggers 
+---
+# Project A01 - Aerosol, clouds, and radiation characteristics from observations and Big Data analysis
+
+![](../logos/icon_ship-100x100.png)
+![](../logos/icon_les-100x100.png)
+
+The combination of ground–based remote sensing and radiation measurements, as well as modeling for the PASCAL and MOSAiC expeditions enabled us, for the first time, to resolve the causal relationships between the state of the atmosphere, the properties of aerosol and clouds, and the forcing at the sea ice surface in the Central Arctic during a full annual cycle. In addition to the initial project goals we identified the persistent presence of forest fire smoke in the upper troposphere and lower stratosphere during large parts of MOSAiC. Through case studies, we have described the relationship between the microphysical structure of clouds and the cloud-relevant properties of Arctic aerosol particles. Statistics of the frequency of ice formation in Arctic supercooled clouds revealed that clouds that are coupled to the planetary boundary layer form ice more frequently than free-tropospheric clouds do at similar temperatures. We demonstrated that undetected low-level clouds caused significant errors in the surface radiation closure between simulations using ground-based remote sensing of aerosol and clouds and irradiance (flux densities, hereafter called fluxes) measurements at the ground, and improved the cloud detection accordingly. Ultimately, we obtained unique, continuous time series of Large-Eddy Simulation (LES) runs and height-resolved Cloudnet-based cloud macro- and microphysical properties for the whole MOSAiC period.
+
+For phase III it is planned to bring the aerosol and cloud radiative studies into a larger context, by utilizing the extensive observational and modeling data sets by means of big data approaches. At the foundation of our method is the extensive combined model-observational data set, that will be applied to big data and to regime-based analyses. Radiative closure between observation- and LES-based radiative transfer simulations and surface radiation measurements will quantify uncertainties in our understanding of the Arctic radiation budget. Finally, year-long LES representing both present-day and perturbed MOSAiC climate are subjected to unsupervised and supervised learning and clustering analyses to identify and quantify emergent constraints, guided by climate model data.
