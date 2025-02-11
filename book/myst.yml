@@ -48,5 +48,5 @@ project:
 site:
   template: book-theme
   options:
-#    favicon: favicon.ico
+    favicon: ./logos/ac3-logo.ico
     logo: ./logos/ac3-logo.png
