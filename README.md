@@ -1,6 +1,6 @@
 # ac3-book - Gateway to the (AC)³ research project on Arctic amplification
 
-[Latest build]()
+[Latest build](https://ac3-tr.github.io/ac3-book/)
 
 This repository holds a jupyter book (version 2) with 
 
