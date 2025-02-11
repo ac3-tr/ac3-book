@@ -7,7 +7,7 @@ The (AC)³ project utilizes multiple measurement platforms.
 
 :::{card} 
 :header: **HALO**
-:link: halo
+:link: /halo
 
 ![HALO](./figures/HALO.jpg)
  
@@ -15,7 +15,7 @@ The (AC)³ project utilizes multiple measurement platforms.
 
 :::{card}
 :header: **Polar 5**
-:link: polar5
+:link: /polar5
 
 ![Polar5](./figures/home_planes_small.png)
 
@@ -23,7 +23,7 @@ The (AC)³ project utilizes multiple measurement platforms.
 
 :::{card}
 :header: **Polar 6**
-:link: polar6
+:link: /polar6
 
 ![Polar6](./figures/home_planes_small.png)
 
@@ -37,7 +37,7 @@ The (AC)³ project utilizes multiple measurement platforms.
 
 :::{card} 
 :header: **Title**
-:link: halo
+:link:
 
 ![Alt Text](./figures/)
  
@@ -51,7 +51,7 @@ The (AC)³ project utilizes multiple measurement platforms.
 
 :::{card} 
 :header: **Title**
-:link: halo
+:link:
 
 ![Alt Text](./figures/)
  
@@ -65,7 +65,7 @@ The (AC)³ project utilizes multiple measurement platforms.
 
 :::{card} 
 :header: **Title**
-:link: halo
+:link:
 
 ![Alt Text](./figures/)
  
