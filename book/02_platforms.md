@@ -8,6 +8,7 @@ The (AC)³ project utilizes multiple measurement platforms.
 :::{card} 
 :header: **HALO**
 :link: /halo
+:footer: Photo: Daniel Beckmann, DLR (CC BY-NC-ND 3.0)
 
 ![HALO](./figures/HALO.jpg)
  
@@ -17,7 +18,8 @@ The (AC)³ project utilizes multiple measurement platforms.
 :header: **Polar 5**
 :link: /polar5
 
-![Polar5](./figures/home_planes_small.png)
+
+[//]: # (![Polar5]&#40;./figures/home_planes_small.png&#41;)
 
 :::
 
@@ -25,7 +27,7 @@ The (AC)³ project utilizes multiple measurement platforms.
 :header: **Polar 6**
 :link: /polar6
 
-![Polar6](./figures/home_planes_small.png)
+[//]: # (![Polar6]&#40;./figures/home_planes_small.png&#41;)
 
 :::
 
