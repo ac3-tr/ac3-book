@@ -1,5 +1,7 @@
 # Campaigns
-The (AC)³ project organized and took part in many campaigns.
+The (AC)³ project organized and took part in many measurement campaigns.
+
+
 
 ::::{grid} 3
 
