@@ -27,16 +27,20 @@ project:
           - file: ac3-website/01_project_a02.md
           - file: ac3-website/01_project_a03.md
           - file: ac3-website/01_project_a04.md
-    - file: 02_platforms.md
+    - file: 02_campaigns.md
+      children:
+        - file: campaigns/haloac3.md
+    - file: 03_platforms.md
       children:
         - file: platforms/halo.md
         - file: platforms/polar5.md
         - file: platforms/polar6.md
-    - file: 03_campaigns.md
+    - file: 04_instruments.md
       children:
-        - file: campaigns/haloac3.md
+        - file: instruments/smart_halo.md
     - title: Example Notebooks
       children:
+        - file: example-notebooks/halo_ac3_smart_ac3_example.ipynb
         - file: example-notebooks/atmospheric_river_shapes.ipynb
         - file: example-notebooks/seaice_concentration_example.ipynb
 
