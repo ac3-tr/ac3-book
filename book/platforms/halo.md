@@ -9,3 +9,17 @@ The German High Altitude and Long-Range Research Aircraft (HALO) is a modified G
 The instrumentation of the HALO aircraft is based on contributions from various universities and research institutions. Each instrument is developed and operated by an individual group, which leads to a modern instrumentation suite and well-trained operators. This section includes individual contact points for the specific instruments.
 
 In particular, the instrumentation consists of broadband radiometers (BACARDI), basic instrumentation (BAHAMAS), a dropsonde launching system (Dropsondes), the active (radar) and passive microwave package (HAMP), irradiance spectrometers (SMART), a thermal imager (VELOX), an infrared radiometer (VELOX-KT19), a water vapor differential absorption lidar (WALES) and spectral and polarization resolving imagers (specMACS).
+
+## Campaigns
+
+::::{grid} 3
+
+:::{card} 
+:header: **HALO-(AC){sup}`3`**
+:link: /haloac3
+
+![HALO](../logos/haloac3-logo.png)
+ 
+:::
+
+::::

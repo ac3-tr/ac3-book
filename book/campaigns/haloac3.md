@@ -8,7 +8,7 @@
 
 ## Publications
 
-- [Wendisch et al., 2024, Overview: quasi-Lagrangian observations of Arctic air mass transformations – introduction and initial results of the HALO-(AC)³ aircraft campaign, Atmos. Chem. Phys., 24, 8865–8892](https://doi.org/10.5194/acp-24-8865-2024.)
+- [Wendisch et al., 2024, Overview: quasi-Lagrangian observations of Arctic air mass transformations – introduction and initial results of the HALO-(AC)³ aircraft campaign, Atmos. Chem. Phys., 24, 8865–8892](https://doi.org/10.5194/acp-24-8865-2024)
 - Data overview paper
 - Synoptic overview paper
 
@@ -46,61 +46,73 @@ Image
 
 ## Instruments
 
+### HALO
+
 :::{dropdown} BACARDI
-:link: /bacardi
 
 Image
 
 :::
 
 :::{dropdown} BAHAMAS
-:link: /bahamas
 
 Image
 
 :::
 
 :::{dropdown} Dropsondes
-:link: /smart_halo
 
 Image
 
 :::
 
 :::{dropdown} HAMP
-:link: /hamp
 
 Image
 
 :::
 
-:::{dropdown} SMART
-:link: /smart_halo
+:::::{dropdown} SMART
 
-Image
+::::{grid} 2
 
+:::{card}
+:link: ../instruments/smart_halo.md
+![SMART topview](../figures/HALO_SMART_top.JPG)
 :::
+
+:::{card} Description and data set
+During HALO-(AC)³ SMART was configured with only one inlet with a hemispheric field of view, which was mounted on top of the fuselage to measure the spectral downward irradiance between 320nm and 2100nm wavelength.
+
+https://doi.org/10.1594/PANGAEA.956151
+:::
+
+::::
+
+@smart1
+
+:::::
 
 :::{dropdown} specMACS
-:link: /specmacs
 
 Image
 
 :::
 
 :::{dropdown} VELOX
-:link: /velox
 
 Image
 
 :::
 
 :::{dropdown} WALES
-:link: /wales
 
 Image
 
 :::
+
+### P5
+
 
 *Overview of Flights*
 
