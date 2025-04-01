@@ -8,9 +8,9 @@
 
 ## Publications
 
-- [Wendisch et al., 2024, Overview: quasi-Lagrangian observations of Arctic air mass transformations – introduction and initial results of the HALO-(AC)³ aircraft campaign, Atmos. Chem. Phys., 24, 8865–8892](https://doi.org/10.5194/acp-24-8865-2024)
-- Data overview paper
-- Synoptic overview paper
+- Overview paper: [Wendisch et al., 2024: Overview: quasi-Lagrangian observations of Arctic air mass transformations – introduction and initial results of the HALO-(AC)³ aircraft campaign, Atmos. Chem. Phys., 24, 8865–8892](https://doi.org/10.5194/acp-24-8865-2024)
+- Data overview paper: [Ehrlich et al., 2025: A comprehensive in situ and remote sensing data set collected during the HALO-(AC)³ aircraft campaign](https://doi.org/10.5194/essd-17-1295-2025)
+- Synoptic overview paper: [Walbröl et al., 2024: Contrasting extremely warm and long-lasting cold air anomalies in the North Atlantic sector of the Arctic during the HALO-(AC)³ campaign](https://doi.org/10.5194/acp-24-8007-2024)
 
 
 ## Platforms
@@ -121,3 +121,7 @@ Image
 [Polar flight logs](https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/doku.php?id=flight_logs)
 
 *Involved Projects*
+
+## Further Publications
+
+[Special Issue in ACP: HALO-(AC)3 – an airborne campaign to study air mass transformations during warm-air intrusions and cold-air outbreaks (ACP/AMT inter-journal SI)](https://acp.copernicus.org/articles/special_issue1272.html) 
