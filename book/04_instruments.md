@@ -6,9 +6,10 @@ The (AC)³ project utilizes multiple measurement instruments. Some on different 
 ::::{grid} 3
 
 :::{card} 
-:header: **SMART** 
-:link:
- 
+:header: **SMART-HALO** 
+:link: ./instruments/smart_halo.md
+:footer: Photo: Johannes Röttenbacher (CC BY 4.0)
+![Top view image of the SMART irradiance inlet](./figures/HALO_SMART_top.JPG) 
 :::
 
 :::{card}

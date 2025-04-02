@@ -78,7 +78,8 @@ Image
 
 :::{card}
 :link: ../instruments/smart_halo.md
-![SMART topview](../figures/HALO_SMART_top.JPG)
+:footer: Photo: Johannes Röttenbacher (CC BY 4.0)
+![Top view image of the SMART irradiance inlet](../figures/HALO_SMART_top.JPG)
 :::
 
 :::{card} Description and data set

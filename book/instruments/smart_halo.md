@@ -5,9 +5,45 @@ kernelspec:
 ---
 # SMART-HALO
 
-*Platform link*
+Instrument paper: [](https://doi.org/c8jtzv)
 
-*Campaign links*
+:::: {grid} 3
+:::{card}
+:footer: Photo: Johannes Röttenbacher (CC BY 4.0)
+![Top view image of the SMART irradiance inlet](../figures/HALO_SMART_top.JPG)
+:::
+
+
+::::
+
+## Platforms
+
+::::{grid} 3
+
+:::{card} 
+:header: **HALO**
+:link: /halo
+:footer: Photo: Daniel Beckmann, DLR (CC BY-NC-ND 3.0)
+
+![HALO](../figures/HALO.jpg)
+ 
+:::
+
+::::
+
+## Campaigns
+
+::::{grid} 3
+
+:::{card} 
+:header: **HALO-(AC){sup}`3`**
+:link: /haloac3
+
+![HALO](../logos/haloac3-logo.png)
+ 
+:::
+
+::::
 
 ## Data sets
 
@@ -34,3 +70,5 @@ _ = (build_folder / "smart_halo.txt").write_text(text)
 ## Example notebooks
 
 @smart1
+
+@smart2
