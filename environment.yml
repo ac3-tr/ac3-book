@@ -1,4 +1,4 @@
-name: ac3-book_2
+name: ac3-book
 channels:
   - conda-forge
 dependencies:
@@ -15,6 +15,7 @@ dependencies:
   - bleach=6.2.0=pyh29332c3_4
   - bleach-with-css=6.2.0=h82add2a_4
   - blosc=1.21.6=hfd34d9b_1
+  - bokeh=3.7.2=pyhd8ed1ab_1
   - brotli=1.1.0=h2466b09_2
   - brotli-bin=1.1.0=h2466b09_2
   - brotli-python=1.1.0=py313h5813708_2
@@ -24,12 +25,13 @@ dependencies:
   - cached_property=1.5.2=pyha770c72_1
   - cairo=1.18.2=h5782bbf_1
   - cartopy=0.24.0=py313hf91d08e_0
-  - certifi=2024.12.14=pyhd8ed1ab_0
+  - certifi=2025.1.31=pyhd8ed1ab_0
   - cffi=1.17.1=py313ha7868ed_0
   - cftime=1.6.4=py313h8e081ca_1
   - charset-normalizer=3.4.1=pyhd8ed1ab_0
   - cloudpickle=3.1.1=pyhd8ed1ab_0
   - colorama=0.4.6=pyhd8ed1ab_1
+  - colorcet=3.1.0=pyhd8ed1ab_1
   - comm=0.2.2=pyhd8ed1ab_1
   - contourpy=1.3.1=py313h1ec8472_0
   - cpython=3.13.1=py313hd8ed1ab_105
@@ -58,6 +60,7 @@ dependencies:
   - harfbuzz=10.2.0=h885c0d4_0
   - hdf4=4.2.15=h5557f11_7
   - hdf5=1.14.4=nompi_hd5d9e70_105
+  - holoviews=1.20.2=pyhd8ed1ab_0
   - hpack=4.1.0=pyhd8ed1ab_0
   - httpcore=1.0.7=pyh29332c3_1
   - httpx=0.28.1=pyhd8ed1ab_0
@@ -130,15 +133,20 @@ dependencies:
   - libxslt=1.1.39=h3df6e99_0
   - libzip=1.11.2=h3135430_0
   - libzlib=1.3.1=h2466b09_2
+  - linkify-it-py=2.0.3=pyhd8ed1ab_1
   - lz4-c=1.10.0=h2466b09_1
+  - markdown=3.6=pyhd8ed1ab_0
+  - markdown-it-py=3.0.0=pyhd8ed1ab_1
   - markupsafe=3.0.2=py313hb4c8b1a_1
   - matplotlib=3.10.0=py313hfa70ccb_0
   - matplotlib-base=3.10.0=py313h81b4f16_0
   - matplotlib-inline=0.1.7=pyhd8ed1ab_1
+  - mdit-py-plugins=0.4.2=pyhd8ed1ab_1
+  - mdurl=0.1.2=pyhd8ed1ab_1
   - mistune=3.1.1=pyhd8ed1ab_0
   - mkl=2024.2.2=h66d3029_15
   - munkres=1.1.4=pyh9f0ad1d_0
-  - mystmd=1.3.23=pyhd8ed1ab_0
+  - narwhals=1.33.0=pyhd8ed1ab_0
   - nbclient=0.10.2=pyhd8ed1ab_0
   - nbconvert-core=7.16.6=pyh29332c3_0
   - nbformat=5.10.4=pyhd8ed1ab_1
@@ -154,6 +162,8 @@ dependencies:
   - packaging=24.2=pyhd8ed1ab_2
   - pandas=2.2.3=py313hf91d08e_1
   - pandocfilters=1.5.0=pyhd8ed1ab_0
+  - panel=1.6.2=pyhd8ed1ab_0
+  - param=2.2.0=pyhd8ed1ab_0
   - parso=0.8.4=pyhd8ed1ab_1
   - pcre2=10.44=h3d7b363_2
   - pickleshare=0.7.5=pyhd8ed1ab_1004
@@ -162,7 +172,6 @@ dependencies:
   - pixman=0.44.2=had0cd8c_0
   - pkginfo=1.12.0=pyhd8ed1ab_1
   - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_2
-  - platformdirs=4.3.6=pyhd8ed1ab_1
   - proj=9.5.1=h4f671f6_0
   - prometheus_client=0.21.1=pyhd8ed1ab_0
   - prompt-toolkit=3.0.50=pyha770c72_0
@@ -185,6 +194,7 @@ dependencies:
   - python-tzdata=2025.1=pyhd8ed1ab_0
   - python_abi=3.13=5_cp313
   - pytz=2024.1=pyhd8ed1ab_0
+  - pyviz_comms=3.0.4=pyhd8ed1ab_1
   - pywin32=307=py313h5813708_3
   - pywinpty=2.0.15=py313h5813708_0
   - pyyaml=6.0.2=py313hb4c8b1a_2
@@ -211,12 +221,14 @@ dependencies:
   - tk=8.6.13=h5226925_1
   - tomli=2.2.1=pyhd8ed1ab_1
   - tornado=6.4.2=py313ha7868ed_0
+  - tqdm=4.67.1=pyhd8ed1ab_1
   - traitlets=5.14.3=pyhd8ed1ab_1
   - types-python-dateutil=2.9.0.20241206=pyhd8ed1ab_0
   - typing-extensions=4.12.2=hd8ed1ab_1
   - typing_extensions=4.12.2=pyha770c72_1
   - typing_utils=0.1.0=pyhd8ed1ab_1
   - tzdata=2025a=h78e105d_0
+  - uc-micro-py=1.0.3=pyhd8ed1ab_1
   - ucrt=10.0.22621.0=h57928b3_1
   - uri-template=1.3.0=pyhd8ed1ab_1
   - urllib3=2.3.0=pyhd8ed1ab_0
@@ -230,8 +242,10 @@ dependencies:
   - widgetsnbextension=4.0.13=pyhd8ed1ab_1
   - win_inet_pton=1.1.0=pyh7428d3b_8
   - winpty=0.4.3=4
+  - xarray=2025.3.0=pyhd8ed1ab_0
   - xorg-libxau=1.0.12=h0e40799_0
   - xorg-libxdmcp=1.1.5=h0e40799_0
+  - xyzservices=2025.1.0=pyhd8ed1ab_0
   - yaml=0.2.5=h8ffe710_2
   - zeromq=4.3.5=ha9f60a1_7
   - zipp=3.21.0=pyhd8ed1ab_1
@@ -239,5 +253,16 @@ dependencies:
   - zstandard=0.23.0=py313h574b89f_1
   - zstd=1.5.6=h0ea2cb4_0
   - pip:
+      - aiohappyeyeballs==2.6.1
+      - aiohttp==3.11.14
+      - aiosignal==1.3.2
+      - frozenlist==1.5.0
       - lxml==5.3.1
-      - pangaeapy==1.0.21
+      - multidict==6.2.0
+      - mystmd==1.3.25
+      - nodeenv==1.9.1
+      - pangaeapy==1.0.22
+      - platformdirs==4.2.2
+      - propcache==0.3.0
+      - toml==0.10.2
+      - yarl==1.18.3
