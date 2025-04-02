@@ -11,7 +11,15 @@ project:
     - meteorology
     - arctic
   authors:
-    - Johannes Röttenbacher
+    - name: Johannes Röttenbacher
+      id: JR
+      role:
+        - administration
+        - conceptualisation
+    - name: Matthias Buschmann
+      id: MB
+      role:
+        - administration
   jupyter:
     lite: true
   github: https://github.com/ac3-tr/ac3-book
@@ -38,9 +46,11 @@ project:
     - file: 04_instruments.md
       children:
         - file: instruments/smart_halo.md
-    - title: Example Notebooks
+    - file: 05_example_notebooks.md
       children:
+        - file: example-notebooks/ac3_notebook_template.ipynb
         - file: example-notebooks/halo_ac3_smart_ac3_example.ipynb
+        - file: example-notebooks/halo_ac3_smart_interactive_quicklook.ipynb
         - file: example-notebooks/atmospheric_river_shapes.ipynb
         - file: example-notebooks/seaice_concentration_example.ipynb
 
