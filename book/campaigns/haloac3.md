@@ -4,7 +4,11 @@
 
 ## Description
 
-
+ "[...], the HALO–(AC)³ aircraft campaign was conducted over the Norwegian and Greenland seas, the Fram Strait, and the central Arctic Ocean in March and April 2022. 
+ The campaign focused on one specific challenge posed by the models, namely the reasonable representation of transformations of air masses during their meridional transport into and out of the Arctic via northward moist- and warm-air intrusions (WAIs) and southward marine cold-air outbreaks (CAOs).
+ Observations were made over areas of open ocean, the marginal sea ice zone, and the central Arctic sea ice. Two low-flying and one long-range, high-altitude research aircraft were flown in colocated formation whenever possible.
+ To follow the air mass transformations, a quasi-Lagrangian flight strategy using trajectory calculations was realized, enabling us to sample the same moving-air parcels twice along their trajectories.
+ Seven distinct WAI and 12 CAO cases were probed." (Wendisch et al., 2024)
 
 ## Publications
 
