@@ -52,7 +52,7 @@ project:
         - file: example-notebooks/halo_ac3_smart_ac3_example.ipynb
         - file: example-notebooks/halo_ac3_smart_interactive_quicklook.ipynb
         - file: example-notebooks/atmospheric_river_shapes.ipynb
-        - file: example-notebooks/seaice_concentration_example.ipynb
+        - file: example-notebooks/satellite_seaice_concentration_example.ipynb
 
   references:
     ac3notebooks: https://github.com/ac3-tr/ac3-notebooks
