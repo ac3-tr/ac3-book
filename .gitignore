@@ -7,3 +7,5 @@ _build
 
 # local data folder
 /book/data/
+# local config folder with PANGAEA bearer token (auth token)
+/book/example-notebooks/secret.toml
