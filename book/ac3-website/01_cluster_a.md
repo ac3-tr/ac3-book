@@ -24,7 +24,13 @@ Measurements from aircraft and ship, sea ice station with tethered balloon, mode
 
 # Projects
 
-[![Icon project A01](../logos/grafik_a01.jpg)](01_project_a01.md)
-[![Icon project A2](../logos/grafik_a02.jpg)](01_project_a02.md)
-[![Icon project A3](../logos/grafik_a03.jpg)](01_project_a03.md)
-[![Icon project A4](../logos/a04_neu-91x64.png)](01_project_a04.md) 
+::::{grid} 6
+:::{embed} #a01
+:::
+:::{embed} #a02
+:::
+:::{embed} #a03
+:::
+:::{embed} #a04
+:::
+::::
