@@ -36,6 +36,15 @@ The (AC)³ project organized and took part in many measurement campaigns.
 
 ::::{grid} 3
 
+(pamarcmip-card)=
+:::{card}
+:header: **PAMARCMiP**
+:link: /pamarcmip
+
+![PAMARCMiP logo](./logos/pamarcmip_2018_logo_small-300x300.png)
+
+:::
+
 (acloud-card)=
 :::{card}
 :header: **ACLOUD**

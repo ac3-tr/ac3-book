@@ -39,6 +39,7 @@ project:
       children:
         - file: campaigns/haloac3.md
         - file: campaigns/mosaic.md
+        - file: campaigns/aflux.md
         - file: campaigns/pamarcmip.md
         - file: campaigns/acloud.md
         - file: campaigns/pascal.md
