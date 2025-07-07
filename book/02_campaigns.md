@@ -1,6 +1,6 @@
 # Campaigns
-The (AC)³ project organized and took part in many measurement campaigns.
 
+The (AC)³ project organized and took part in many measurement campaigns.
 
 
 ::::{grid} 3
@@ -14,19 +14,38 @@ The (AC)³ project organized and took part in many measurement campaigns.
 :::
 
 :::{card}
-:header: **ACLOUD**
-:link: /acloud
+:header: **MOSAiC**
+:link: /mosaic
 
-Image
+![MOSAiC logo]()
 
 :::
 
 :::{card}
-:header: **Title**
-:link: /
+:header: **AFLUX**
+:link: /aflux
 
-Image
+![AFLUX logo](./logos/logo_aflux_small-300x172.png)
 
+:::
+
+::::
+
+::::{grid} 3
+
+:::{card}
+:header: **ACLOUD**
+:link: /acloud
+
+![ACLOUD logo](./logos/acloud_logo_small2-300x75.png)
+
+:::
+
+:::{card}
+:header: **PASCAL**
+:link: /pascal
+
+![PASCAL campaign logo](./logos/pascal-stempel2017_konturpfad_polarstern-300x263.jpg)
 :::
 
 ::::

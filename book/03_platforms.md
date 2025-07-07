@@ -66,10 +66,10 @@ The (AC)³ project utilizes multiple measurement platforms.
 ::::{grid} 3
 
 :::{card} 
-:header: **Title**
-:link:
+:header: **RV Polarstern**
+:link: /polarstern
 
-![Alt Text](./figures/)
+![RV Polarstern](./figures/)
  
 :::
 
