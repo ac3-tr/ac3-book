@@ -5,6 +5,7 @@ The (AC)³ project utilizes multiple measurement instruments. Some on different 
 
 ::::{grid} 3
 
+(smart-card)=
 :::{card} 
 :header: **SMART-HALO** 
 :link: ./instruments/smart_halo.md

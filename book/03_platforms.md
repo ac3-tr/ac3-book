@@ -5,6 +5,7 @@ The (AC)³ project utilizes multiple measurement platforms.
 
 ::::{grid} 3
 
+(halo-card)=
 :::{card} 
 :header: **HALO**
 :link: /halo
@@ -14,6 +15,7 @@ The (AC)³ project utilizes multiple measurement platforms.
  
 :::
 
+(polar5-card)=
 :::{card}
 :header: **Polar 5**
 :link: /polar5
@@ -23,6 +25,7 @@ The (AC)³ project utilizes multiple measurement platforms.
 
 :::
 
+(polar6-card)=
 :::{card}
 :header: **Polar 6**
 :link: /polar6
@@ -65,6 +68,7 @@ The (AC)³ project utilizes multiple measurement platforms.
 
 ::::{grid} 3
 
+(polarstern-card)=
 :::{card} 
 :header: **RV Polarstern**
 :link: /polarstern

@@ -20,14 +20,7 @@ Instrument paper: [](https://doi.org/c8jtzv)
 
 ::::{grid} 3
 
-:::{card} 
-:header: **HALO**
-:link: /halo
-:footer: Photo: Daniel Beckmann, DLR (CC BY-NC-ND 3.0)
-
-![HALO](../figures/HALO.jpg)
- 
-:::
+![](#halo-card)
 
 ::::
 
@@ -35,13 +28,7 @@ Instrument paper: [](https://doi.org/c8jtzv)
 
 ::::{grid} 3
 
-:::{card} 
-:header: **HALO-(AC){sup}`3`**
-:link: /haloac3
-
-![HALO](../logos/haloac3-logo.png)
- 
-:::
+![](#haloac3-card)
 
 ::::
 

@@ -21,31 +21,11 @@
 
 ::::{grid} 3
 
-:::{card}
-:header: **HALO**
-:link: /halo
-:footer: Photo: DLR/Minikin
+![](#halo-card)
 
-![HALO](../figures/HALO_Kiruna.jpg)
- 
-:::
+![](#polar5-card)
 
-:::{card}
-:header: **Polar 5**
-:link: /polar5
-
-Image
-
-:::
-
-:::{card}
-:header: **Polar 6**
-:link: /polar6
-
-Image
-
-:::
-
+![](#polar6-card)
 ::::
 
 ## Instruments
@@ -80,11 +60,7 @@ Image
 
 ::::{grid} 2
 
-:::{card}
-:link: ../instruments/smart_halo.md
-:footer: Photo: Johannes Röttenbacher (CC BY 4.0)
-![Top view image of the SMART irradiance inlet](../figures/HALO_SMART_top.JPG)
-:::
+![](#smart-card)
 
 :::{card} Description and data set
 During HALO-(AC)³ SMART was configured with only one inlet with a hemispheric field of view, which was mounted on top of the fuselage to measure the spectral downward irradiance between 320nm and 2100nm wavelength.
@@ -119,13 +95,13 @@ Image
 ### P5
 
 
-*Overview of Flights*
+## Overview of Flights
 
 [HALO flight logs](https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/doku.php?id=flight_logs_halo)
 
 [Polar flight logs](https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/doku.php?id=flight_logs)
 
-*Involved Projects*
+## Involved Projects
 
 ## Further Publications
 

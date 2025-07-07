@@ -5,6 +5,7 @@ The (AC)³ project organized and took part in many measurement campaigns.
 
 ::::{grid} 3
 
+(haloac3-card)=
 :::{card} 
 :header: **HALO-(AC){sup}`3`**
 :link: /haloac3
@@ -13,6 +14,7 @@ The (AC)³ project organized and took part in many measurement campaigns.
  
 :::
 
+(mosaic-card)=
 :::{card}
 :header: **MOSAiC**
 :link: /mosaic
@@ -21,6 +23,7 @@ The (AC)³ project organized and took part in many measurement campaigns.
 
 :::
 
+(aflux-card)=
 :::{card}
 :header: **AFLUX**
 :link: /aflux
@@ -33,6 +36,7 @@ The (AC)³ project organized and took part in many measurement campaigns.
 
 ::::{grid} 3
 
+(acloud-card)=
 :::{card}
 :header: **ACLOUD**
 :link: /acloud
@@ -41,6 +45,7 @@ The (AC)³ project organized and took part in many measurement campaigns.
 
 :::
 
+(pascal-card)=
 :::{card}
 :header: **PASCAL**
 :link: /pascal
