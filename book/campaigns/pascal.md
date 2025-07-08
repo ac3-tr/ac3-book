@@ -81,6 +81,7 @@ https://doi.org/10.1594/PANGAEA.956151
 ## Notebooks
 
 - @pascal-solar-irradiance
+- @pascal-cloudnet
 
 ## Further Publications
 

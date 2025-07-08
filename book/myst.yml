@@ -69,6 +69,7 @@ project:
         - file: example-notebooks/atmospheric_river_shapes.ipynb
         - file: example-notebooks/satellite_seaice_concentration_example.ipynb
         - file: example-notebooks/PS106_broadband_solar_irradiance_icefloecamp.ipynb
+        - file: example-notebooks/PS106_cloudnet_target_classification.ipynb
 
   references:
     ac3notebooks: https://github.com/ac3-tr/ac3-notebooks
