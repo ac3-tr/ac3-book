@@ -8,7 +8,8 @@ authors:
 ---
 # Cluster A - Fluxes in the Arctic Boundary Layer 
 
-[![Icon of Cluster A](../logos/icon_a.png)](https://www.ac3-tr.de/projects/cluster-a/)
+(clustera)=
+[![Icon of Cluster A](../logos/icon_a.png)](./01_cluster_a.md)
 
 ## Topic
 

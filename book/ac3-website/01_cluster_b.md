@@ -4,7 +4,8 @@ authors:
 ---
 # Cluster B - Clouds, Aerosols & Water Vapour	
 
-[![Icon of Cluster B](../logos/icon_b.png)](https://www.ac3-tr.de/projects/cluster-b/)
+(clusterb)=
+[![Icon of Cluster B](../logos/icon_b.png)](./01_cluster_b.md)
 
 ## Topic
 
