@@ -7,8 +7,8 @@ title: B03
 ---
 # Transformation of Arctic mixed–phase clouds in cold air outbreaks characterized by airborne and satellite remote sensing
 
-(b01)=
-[![Icon project B01](../logos/grafik_b03.jpg)](01_project_b03.md)
+(b03)=
+[![Icon project B03](../logos/grafik_b03.jpg)](01_project_b03.md)
 
 ![](../logos/icon_aircraft-100x100.png)
 ![]()
