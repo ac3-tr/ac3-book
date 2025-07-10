@@ -69,6 +69,7 @@ project:
         - file: example-notebooks/PS106_broadband_solar_irradiance_icefloecamp.ipynb
         - file: example-notebooks/PS106_cloudnet_target_classification.ipynb
         - file: example-notebooks/insitu_chlorophylla_example.ipynb
+        - file: example-notebooks/Sentinel2_melt_pond_fraction_example.ipynb
 
   references:
     ac3notebooks: https://github.com/ac3-tr/ac3-notebooks
