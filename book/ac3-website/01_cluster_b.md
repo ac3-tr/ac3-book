@@ -9,7 +9,7 @@ authors:
 
 ## Topic
 
-Investigate the marco- and microphysical properties of Arctic clouds, aerosols and water vapour, togehter with thier energetic forcing
+Investigate the marco- and microphysical properties of Arctic clouds, aerosols and water vapour, together with their energetic forcing
 
 ## Key question
 

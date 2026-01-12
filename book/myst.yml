@@ -43,6 +43,9 @@ project:
             - file: ac3-website/01_project_b06.md
             - file: ac3-website/01_project_b07.md
             - file: ac3-website/01_project_b08.md
+        - file: ac3-website/01_cluster_c.md
+          children:
+            - file: ac3-website/01_project_c01.md
     - file: 02_campaigns.md
       children:
         - file: campaigns/haloac3.md
