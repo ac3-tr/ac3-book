@@ -26,20 +26,12 @@ Measurements from aircraft and ship, sea ice station with tethered balloon, mode
 # Projects
 
 ::::{grid} 6
-:::{card}
-:link: https://ac3-tr.de/pages/a01.html
-![Icon project A01](../logos/grafik_a01.jpg)
-:::
-:::{card}
-:link: https://ac3-tr.de/pages/a02.html
-![Icon project A02](../logos/grafik_a02.jpg)
-:::
-:::{card}
-:link: https://ac3-tr.de/pages/a03.html
-![Icon project A03](../logos/grafik_a03.jpg)
-:::
-:::{card}
-:link: https://ac3-tr.de/pages/a04.html
-![Icon project A04](../logos/grafik_a04.jpg)
-:::
+(a01)=
+[![Icon project A01](../logos/grafik_a01.jpg)](https://ac3-tr.de/pages/a01.html)
+(a02)=
+[![Icon project A02](../logos/grafik_a02.jpg)](https://ac3-tr.de/pages/a02.html)
+(a03)=
+[![Icon project A03](../logos/grafik_a03.jpg)](https://ac3-tr.de/pages/a03.html)
+(a04)=
+[![Icon project A04](../logos/grafik_a04.jpg)](https://ac3-tr.de/pages/a04.html)
 ::::
