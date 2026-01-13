@@ -1,10 +1,6 @@
 ---
 authors:
-  - Manfred Wendisch
-  - Florian Gebhardt
-  - Dörthe Handorf
   - André Ehrlich
-  - Alexander Schulz
 ---
 # Cluster A - Fluxes in the Arctic Boundary Layer 
 

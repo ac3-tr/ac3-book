@@ -1,7 +1,7 @@
 ---
 slug: cluster-c
 authors:
-  - ""
+  - Astrid Bracher
 ---
 
 # Cluster C - Ocean, Atmosphere & Sea Ice Interactions

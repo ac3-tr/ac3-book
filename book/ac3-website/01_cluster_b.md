@@ -1,6 +1,7 @@
 ---
 authors:
-  - ""
+  - Gunnar Spreen
+  - Andreas Macke
 ---
 # Cluster B - Clouds, Aerosols & Water Vapour	
 
