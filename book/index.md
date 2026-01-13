@@ -38,4 +38,10 @@ Measurement Instruments
 Example notebooks
 :::
 
+:::{card}
+:link: /short_bytes
+
+Short Bytes
+:::
+
 ::::
