@@ -28,11 +28,6 @@ project:
     - file: 01_overview.md
       children:
         - file: ac3-website/01_cluster_a.md
-          children:
-            - file: ac3-website/01_project_a01.md
-            - file: ac3-website/01_project_a02.md
-            - file: ac3-website/01_project_a03.md
-            - file: ac3-website/01_project_a04.md
         - file: ac3-website/01_cluster_b.md
           children:
             - file: ac3-website/01_project_b01.md
