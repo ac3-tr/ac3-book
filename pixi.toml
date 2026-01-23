@@ -1,0 +1,36 @@
+[workspace]
+authors = ["Johannes Röttenbacher <jr-alias@posteo.de>"]
+channels = ["conda-forge"]
+name = "ac3-book"
+platforms = ["linux-64"]
+version = "1.0.0"
+
+[tasks]
+
+[dependencies]
+cartopy = ">=0.24.0,<0.25"
+holoviews = ">=1.20.2,<2"
+jupyter = ">=1.1.1,<2"
+jupyterlite-core = ">=0.5.1,<0.6"
+matplotlib = ">=3.10.3,<4"
+mystmd = ">=1.7.1,<2"
+nest-asyncio = ">=1.6.0,<2"
+netcdf4 = ">=1.7.2,<2"
+numpy = ">=2.2.6,<3"
+pandas = ">=2.2.3,<3"
+panel = ">=1.7.0,<2"
+pyhdf = ">=0.11.6,<0.12"
+xarray = ">=2025.4.0,<2026"
+jupyterlite-pyodide-kernel = ">=0.5.2,<0.6"
+pixi-pycharm = ">=0.0.10,<0.0.11"
+pip = ">=25.3,<26"
+aiohttp = ">=3.12.1,<4"
+toml = ">=0.10.2,<0.11"
+pytest-asyncio = ">=1.0.0,<2"
+asyncmock = ">=0.4.2,<0.5"
+rst-to-myst = ">=0.4.0,<0.5"
+sphinx = ">=7.3.7,<8"
+ipykernel = ">=7.1.0,<8"
+
+[pypi-dependencies]
+pangaeapy = ">=1.1.0, <2"

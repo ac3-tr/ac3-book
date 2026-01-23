@@ -38,12 +38,12 @@ Here's how to set up the ac3-book book for local development.
 
 1. [Fork the repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks) on GitHub.
 2. Clone your fork locally.
-3. Create a python environment with all dependencies, e.g., by using `mamba`: `mamba env create -f environment.yml`
+3. Run `pixi install` in the local directory to use [pixi](https://pixi.prefix.dev/latest/installation/) to set up the python environment
 4. [Create a branch](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) for local development and make changes locally. See the [mystmd guide](https://mystmd.org/guide) for help on syntax.
 5. Build the book locally to see if the fully-rendered HTML version looks as intended.
    ```sh
    cd book  # change into the book directory
-   myst start  # start your local webserver
+   pixi run myst start  # start your local webserver
    ```
 6. Commit your changes and push your branch to your fork on GitHub.
 7. [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) through the GitHub website.
