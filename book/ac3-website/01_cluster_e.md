@@ -1,5 +1,4 @@
 ---
-slug: cluster-e
 authors:
   - Kerstin Ebell
 ---

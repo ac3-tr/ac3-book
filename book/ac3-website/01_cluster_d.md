@@ -1,5 +1,4 @@
 ---
-slug: cluster-d
 authors:
   - Dörthe Handorf
 ---

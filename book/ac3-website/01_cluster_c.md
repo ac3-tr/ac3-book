@@ -1,5 +1,4 @@
 ---
-slug: cluster-c
 authors:
   - Astrid Bracher
 ---
