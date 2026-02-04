@@ -42,9 +42,9 @@ from pangaeapy import PanQuery
 keywords = ['project:AC3', 'SMART', 'HALO', 'project:SPP1294']
 query = ', '.join(keywords)
 result = PanQuery(query)
-dois = result.get_doi()
+dois = result.get_dois()
 
-source = Path().parent
+source = Path().resolve().parent
 text = "\n".join(f"- []({doi})" for doi in dois)
 build_folder = source / "_build/tmp"
 build_folder.mkdir(exist_ok=True, parents=True)
