@@ -24,3 +24,16 @@ The other option is to fork the whole repository, directly add a notebook in the
 ```{include} ../README.md
 :lines: 37 - 49
 ```
+
+## Notebooks
+
+- [](./example-notebooks/ac3_notebook_cyclones.ipynb)
+- [](./example-notebooks/acloud_smart_irradiances_example.ipynb)
+- [](./example-notebooks/atmospheric_river_shapes.ipynb)
+- [](./example-notebooks/halo_ac3_smart_ac3_example.ipynb)
+- [](./example-notebooks/halo_ac3_smart_interactive_quicklook.ipynb)
+- [](./example-notebooks/insitu_chlorophylla_example.ipynb)
+- [](./example-notebooks/PS106_broadband_solar_irradiance_icefloecamp.ipynb)
+- [](./example-notebooks/PS106_cloudnet_target_classification.ipynb)
+- [](./example-notebooks/satellite_seaice_concentration_example.ipynb)
+- [](./example-notebooks/Sentinel2_melt_pond_fraction_example.ipynb)
