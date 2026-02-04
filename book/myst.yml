@@ -48,6 +48,8 @@ project:
     - file: 04_instruments.md
       children:
         - file: instruments/smart_halo.md
+    - file: 08_models.md
+    - file: 07_datasets.md
     - file: 05_example_notebooks.md
       children:
         - file: example-notebooks/ac3_notebook_template.ipynb
@@ -59,6 +61,8 @@ project:
         - file: example-notebooks/PS106_cloudnet_target_classification.ipynb
         - file: example-notebooks/insitu_chlorophylla_example.ipynb
         - file: example-notebooks/Sentinel2_melt_pond_fraction_example.ipynb
+        - file: example-notebooks/ac3_notebook_cyclones.ipynb
+        - file: example-notebooks/acloud_smart_irradiances_example.ipynb
     - file: 06_short_bytes.md
       children:
           - file: short_bytes/ac3_shortbyte_netcdf_metadata.ipynb
