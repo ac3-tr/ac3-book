@@ -66,6 +66,7 @@ project:
     - file: 06_short_bytes.md
       children:
           - file: short_bytes/ac3_shortbyte_netcdf_metadata.ipynb
+          - file: short_bytes/ac3_shortbyte_save_to_netcdf.ipynb
 
   references:
     ac3notebooks: https://github.com/ac3-tr/ac3-notebooks
