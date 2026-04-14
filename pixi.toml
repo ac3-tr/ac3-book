@@ -31,6 +31,8 @@ asyncmock = ">=0.4.2,<0.5"
 rst-to-myst = ">=0.4.0,<0.5"
 sphinx = ">=7.3.7,<8"
 ipykernel = ">=7.1.0,<8"
+fsspec = ">=2026.1.0,<2027"
+dask = ">=2026.1.1,<2027"
 
 [pypi-dependencies]
 pangaeapy = ">=1.1.0, <2"
