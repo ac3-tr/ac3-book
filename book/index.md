@@ -1,5 +1,5 @@
 ---
-title: (AC)³
+title: (AC)³ Book
 ---
 
 [Project Website](https://www.ac3-tr.de/)
