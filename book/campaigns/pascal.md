@@ -43,25 +43,11 @@ The new BELUGA (Balloon-bornE moduLar Utility for profilinG the lower Atmosphere
 
 ### RV Polarstern
 
-:::::{dropdown} SMART
+:::::{dropdown} 
 
 ::::{grid} 2
-
-:::{card}
-:link: ../instruments/smart_halo.md
-:footer: Photo: Johannes Röttenbacher (CC BY 4.0)
-![Top view image of the SMART irradiance inlet](../figures/HALO_SMART_top.JPG)
-:::
-
-:::{card} Description and data set
-During HALO-(AC)³ SMART was configured with only one inlet with a hemispheric field of view, which was mounted on top of the fuselage to measure the spectral downward irradiance between 320nm and 2100nm wavelength.
-
-https://doi.org/10.1594/PANGAEA.956151
-:::
-
 ::::
 
-@smart1
 
 :::::
 
@@ -69,10 +55,6 @@ https://doi.org/10.1594/PANGAEA.956151
 
 :::::{dropdown}
 :::: {grid} 2
-:::{card}
-:::
-:::{card}
-:::
 ::::
 :::::
 

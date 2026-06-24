@@ -2,8 +2,6 @@
 
 [Website](https://mosaic-expedition.org/)
 
-[Campaign Wiki](https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/doku.php?id=start)
-
 ## Description
 
 "[...] The international Multidisciplinary drifting Observatory for the Study of Arctic Climate (MOSAiC) expedition of 2019-2020 used a coupled system approach to examine the processes and feedbacks that lead to the amplification of climate warming in the Arctic, the diminished Arctic sea ice, and their implications on weather, global climate, ecosystems, and model predictions. MOSAiC entailed freezing the icebreaker Polarstern, and an extensive collection of observational assets, into the Central Arctic ice pack for a full year to drift with the sea ice. [...]" (From the Special Feature description, see below)
@@ -31,7 +29,7 @@
 
 ## Instruments
 
-### PRV Polarstern
+### RV Polarstern
 
 :::{dropdown} Name
 
