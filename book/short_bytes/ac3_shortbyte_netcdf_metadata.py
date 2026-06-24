@@ -1,6 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
+# %% [markdown]
 # ---
 # authors:
 #     - MB
@@ -9,7 +7,9 @@
 # label: shortbyte
 # downloads:
 #   - file: ac3_shortbyte_netcdf_metadata.ipynb
-#     title: Source File
+#     title: Jupyter Notebook
+#   - file: ac3_shortbyte_netcdf_metadata.py
+#     title: Python Script
 # ---
 # 
 # 
@@ -17,7 +17,7 @@
 #  - *Johannes Röttenbacher*, [*Institute for Environmental Physics*](https://www.iup.uni-bremen.de/eng/), *Otto-Hahn-Allee 1, 28359 Bremen*, *jroettenbacher@iup.physik.uni-bremen.de*
 # 
 # This notebook is licensed under the [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/ "CC-BY-4.0")
-
+# %% [markdown]
 # ## Adding metadata to a netCDF file
 # 
 # In meteorology and other earth sciences good data sets come with a wealth of metadata, which tells the story of the data set and gives meaningful insight in its properties.
@@ -28,19 +28,15 @@
 # In python the [xarray](https://docs.xarray.dev/en/stable/) module handles netCDF files with ease and makes working with them fast and simple.
 # 
 # In this Short Byte we will show you how to add meaningful metadata to a data set and give you a few global attributes, which you should always add to your data sets.
-
+# %% [markdown]
 # ### Import relevant modules
 # 
 # Let's start by importing the relevant modules.
-
-# In[12]:
-
-
+# %%
 import datetime
 import numpy as np
 import xarray as xr
-
-
+# %% [markdown]
 # ## Creating some data
 # 
 # Let's mock up a data set with two variables one for the spectral solar downward irradiance and one for the spectral solar upward irradiance.
@@ -48,10 +44,7 @@ import xarray as xr
 # Thus, we have a time dimension and, since we assume spectral measurements, a wavelength dimension.
 # Our instrument can measure from 350nm to 900nm in 2nm steps.
 # We assume 24 hours of measurements and simulate a clear sky day with half of a sine wave.
-
-# In[13]:
-
-
+# %%
 start_date = datetime.datetime(2025, 7, 1)
 end_date = datetime.datetime(2025, 7, 2)
 timesteps = xr.date_range(start_date, end_date, freq='s', inclusive='left')
@@ -73,14 +66,10 @@ fup = np.zeros((n_time, n_wavelengths))
 for i in range(n_wavelengths):
     fdw[:, i] = np.sin(x) * 800 * weighting[i]  # we scale to a maximum of 800 W/m2
     fup[:, i] = np.sin(x) * 800 * 0.3 * weighting[i]  # we assume an average reflectance of 30%
-
-
+# %% [markdown]
 # Now that we have the basic arrays set up we can combine them in a xarray data array.
 # For this we need to define the dimensions of our data and add a coordinate to each dimension.
-
-# In[14]:
-
-
+# %%
 fdw = xr.DataArray(data=fdw,
                    coords=(timesteps, wavelengths),
                    dims=('time', 'wavelength'),
@@ -89,16 +78,11 @@ fup = xr.DataArray(data=fup,
                    coords=(timesteps, wavelengths),
                    dims=('time', 'wavelength'),
                    )
-
-
+# %% [markdown]
 # Let's take a look at our data array and think about what metadata we would need to add still
-
-# In[15]:
-
-
+# %%
 fdw
-
-
+# %% [markdown]
 # ## Adding metadata
 # 
 # We already chose "talking" coordinate names but a reader would have now idea what unit our variables and coordinates are in.
@@ -112,20 +96,13 @@ fdw
 # 
 # Since we are dealing with spectral data, we can use the standard name `solar_irradiance_per_unit_wavelength`, which has a canonical unit of `W m-2 m-1`.
 # Thus, we need to convert our nanometer wavelength to meter.
-
-# In[16]:
-
-
+# %%
 ds = xr.Dataset(dict(fdw=fdw, fup=fup))
 ds['wavelength'] = ds.wavelength * 10**-9
 ds
-
-
+# %% [markdown]
 # Although coordinates and variables are named differently in the view above we can still think of coordinates as variables and add their metadata in the same dictionary.
-
-# In[17]:
-
-
+# %%
 var_attrs = dict(
     fdw=dict(
         units="W m-2 m-1",
@@ -144,28 +121,28 @@ var_attrs = dict(
     ),
     time=dict(
         standard_name='time',
-        units=f'seconds since {start_date}',
-        calendar='standard',
+        # xarray sets this automatically since we are using datetimes already
+        # and throws an error if this is manually defined
+        # If you want to define this manually you need to use float or int for your time variable
+        # Further, this needs to be defined in the encoding attribute like
+        # ds.time.encoding = dict(...)
+        # units=f'seconds since {start_date}',
+        # calendar='standard',
     )
 )
-
-
+# %% [markdown]
 # You notice that the units attribute of the time coordinate is not an SI unit but rather a reference time.
 # We use the start of day as a reference time so we don't need to worry about leap seconds here.
 # The `calendar` attribute is another important piece of metadata.
 # You can read more about it here: https://cfconventions.org/cf-conventions/cf-conventions#calendar
 # 
 # Let's add those attributes to the variables in the data set.
-
-# In[18]:
-
-
+# %%
 for var in ds.variables:
     ds[var].attrs = var_attrs[var]
 
 ds
-
-
+# %% [markdown]
 # ## Global metadata
 # 
 # We added the variable attributes but there is also an option to add global attributes, and you should use that to tell the user more about the data set itself.
@@ -174,7 +151,7 @@ ds
 # Here is a selection of attributes you can use.
 # Most importantly the `Conventions` attribute should always be present telling the user, which version of the CF conventions are used for the data set.
 # Currently (2026-01-12) we are at version 1.13, which did a lot of clarification when it comes to calendars and time.
-
+# %% [markdown]
 # - `Conventions: CF-1.13`
 #   Check https://cfconventions.org/ for the current version.
 # - `title:`
@@ -202,12 +179,9 @@ ds
 # - `history: yyyy-mm-dd HH:MM python created file for publishing` Provides an audit trail for modifications to the original data. Well-behaved generic netCDF filters will automatically append their name and the parameters with which they were invoked to the global history attribute of an input netCDF file. We recommend that each line begin by indicating the date and time of day that the program was executed.
 # - `featureType: profile`
 #   Specifies the type of discrete sampling geometry to which the data in the scope of this attribute belongs, and implies that all data variables in the scope of this attribute contain collections of features of that type. (See https://cfconventions.org/cf-conventions/cf-conventions#discrete-sampling-geometries)
-
+# %% [markdown]
 # For our data set we stick to a minimum.
-
-# In[19]:
-
-
+# %%
 global_attrs = dict(
     Convention=1.13,
     title='Solar irradiance at measurement site',
@@ -219,18 +193,14 @@ global_attrs = dict(
 )
 ds.attrs = global_attrs
 ds
-
-
+# %% [markdown]
 # ## Attributes as variables
 # 
 # Up till now we only added metadata as attributes.
 # However, we haven't specified the location of our measurement site yet.
 # We can do this with attributes, but it makes more sense to use variables for this in case we want to merge our data set with another stations data in the future.
 # So let's add latitude, longitude and altitude.
-
-# In[20]:
-
-
+# %%
 lat, lon, height_above_msl, height_above_ground = 47.801274, 11.009044, 960, 2
 ds['latitude'] = xr.DataArray(data=lat,
                               attrs=dict(
@@ -256,10 +226,9 @@ ds['height_above_ground'] = xr.DataArray(data=height_above_ground,
                                              long_name='Height of measurement device above ground',)
                                          )
 ds
-
-
+# %% [markdown]
 # As you can see, we did not add any dimension to these variables as they are not dependent on any.
-
+# %% [markdown]
 # ## Conclusion
 # 
 # This is it for this Short Byte. Comparing our initial data with the final data set, which one would you prefer to work with?
