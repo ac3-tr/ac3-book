@@ -19,8 +19,25 @@ This book is being build as a place of exchange for researches inside and outsid
 - [ ] Develop a template to provide members to add example notebooks showcasing the use of some data
 - [ ] Link each example notebook to the platform(s) and data source(s) it uses
 - [ ] List all example notebooks on the page of the respective platform(s) that created the data for it
-- [ ] Port information from the website to the book
-- [ ] Port information from campaign wikis and websites to the book
+- [x] Port information from the website to the book
+- [ ] Port partial information from campaign wikis and websites to the book
+  - [ ] ACLOUD
+  - [ ] HALO-AC3
+  - [ ] COMPEX
+  - [ ] PASCAL -> where is the wiki
+- [ ] Add instrument cards
+  - [ ] HALO
+  - [ ] P5
+  - [ ] P6
+  - [ ] Polarstern
+  - [ ] Beluga
+- [ ] Add platform cards
+  - [x] HALO
+  - [ ] P5
+  - [ ] P6
+  - [ ] Polarstern
+  - [ ] Spaceborne
+  - [ ] Ground based
 
 ## Contribute
 
