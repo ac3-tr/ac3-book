@@ -3,7 +3,7 @@
 # authors:
 #     - JR
 # title: Short Byte - Saving to NetCDF
-# label: shortbyte
+# label: shortbyte02
 # downloads:
 #   - file: ac3_shortbyte_save_to_netcdf.ipynb
 #     title: Jupyter Notebook

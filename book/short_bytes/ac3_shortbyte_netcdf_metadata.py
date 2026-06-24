@@ -4,7 +4,7 @@
 #     - MB
 #     - JR
 # title: Short Byte - Adding metadata to a netCDF file
-# label: shortbyte
+# label: shortbyte01
 # downloads:
 #   - file: ac3_shortbyte_netcdf_metadata.ipynb
 #     title: Jupyter Notebook
