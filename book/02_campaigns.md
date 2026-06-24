@@ -5,12 +5,21 @@ The (AC)³ project organized and took part in many measurement campaigns.
 
 ::::{grid} 3
 
+(compex-card)=
+:::{card} 
+:header: **COMPEX**
+:link: /compex
+
+![COMPEX logo](./logos/compex_logo.png)
+ 
+:::
+
 (haloac3-card)=
 :::{card} 
 :header: **HALO-(AC){sup}`3`**
 :link: /haloac3
 
-![HALO](./logos/haloac3-logo.png)
+![HALO-AC3 logo](./logos/haloac3-logo.png)
  
 :::
 
@@ -23,6 +32,10 @@ The (AC)³ project organized and took part in many measurement campaigns.
 
 :::
 
+::::
+
+::::{grid} 3
+
 (aflux-card)=
 :::{card}
 :header: **AFLUX**
@@ -31,10 +44,6 @@ The (AC)³ project organized and took part in many measurement campaigns.
 ![AFLUX logo](./logos/logo_aflux_small-300x172.png)
 
 :::
-
-::::
-
-::::{grid} 3
 
 (pamarcmip-card)=
 :::{card}
@@ -53,6 +62,10 @@ The (AC)³ project organized and took part in many measurement campaigns.
 ![ACLOUD logo](./logos/acloud_logo_small2-300x75.png)
 
 :::
+
+::::
+
+::::{grid} 3
 
 (pascal-card)=
 :::{card}

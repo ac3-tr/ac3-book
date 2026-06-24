@@ -21,7 +21,7 @@ The (AC)³ project utilizes multiple measurement platforms.
 :link: /polar5
 
 
-[//]: # (![Polar5]&#40;./figures/home_planes_small.png&#41;)
+![Polar5](./figures/polar5.jpg)
 
 :::
 

@@ -34,6 +34,7 @@ project:
         - file: ac3-website/01_cluster_e.md
     - file: 02_campaigns.md
       children:
+        - file: campaigns/compex.md
         - file: campaigns/haloac3.md
         - file: campaigns/mosaic.md
         - file: campaigns/aflux.md
