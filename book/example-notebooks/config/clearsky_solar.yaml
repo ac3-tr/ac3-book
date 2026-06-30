@@ -4,7 +4,7 @@
 execution:
   cleanup_temp_files: false
   debug_mode: false
-  max_workers: 4
+  max_workers: 12
   timeout_seconds: 300
 
 output:
@@ -25,24 +25,25 @@ paths:
 
 simulation_defaults:
   source: solar
-  rte_solver: disort
-  mol_abs_param: kato2            # correlated-k band model -> fast broadband solar
-  integrate_wavelength: true      # return the band-integrated broadband irradiance
+  rte_solver: twostr
+  mol_abs_param: reptran coarse          # correlated-k band model -> fast broadband solar
+  integrate_wavelength: false      # return the band-integrated broadband irradiance
   wavelength_nm:
-    - 200
-    - 3600
+    - 290
+    - 4500
   # The clear-sky downward irradiance is almost insensitive to the surface
   # albedo; the upward (and hence the net) clear-sky flux is reconstructed
   # analytically in the notebook from the measured broadband albedo.
   albedo_value: 0.15
   ozone_du: 300.0
   h2o_source: fixed
-  h2o_mm: 5.0
+  h2o_mm: 0
   sza: null                       # auto-computed from time + latitude/longitude
   output_altitudes_km:
     - 0.1                         # approximate altitude of the low-level legs
   output_columns:
     - zout
+    - lambda
     - sza
     - edir
     - edn
