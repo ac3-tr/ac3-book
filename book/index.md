@@ -6,7 +6,7 @@ title: (AC)³ Book
 
 ![](./logos/arctic-amplification-logo-ac3.png)
 
-::::{grid} 3 2
+::::{grid} 4 3
 
 :::{card}
 :link: /overview
@@ -30,6 +30,24 @@ Measurement Platforms
 :link: /instruments
 
 Measurement Instruments
+:::
+
+:::{card}
+:link:/models
+
+Models
+:::
+
+:::{card}
+:link: /software
+
+Software
+:::
+
+:::{card}
+:link: /datasets
+
+Datasets
 :::
 
 :::{card}
