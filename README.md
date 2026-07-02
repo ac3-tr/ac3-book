@@ -38,6 +38,16 @@ This book is being build as a place of exchange for researches inside and outsid
   - [ ] Polarstern
   - [ ] Spaceborne
   - [ ] Ground based
+- [ ] Add short model descriptions
+  - [ ] ICON
+  - [ ] ICON-LEM
+  - [ ] ERA5
+  - [ ] Merra
+  - [ ] Carra
+- [ ] Add software
+  - [ ] PAMTRA
+  - [ ] pyRadTran
+  - [ ] ac3-airborne
 
 ## Contribute
 
