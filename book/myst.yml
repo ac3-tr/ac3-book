@@ -41,6 +41,8 @@ project:
         - file: campaigns/pamarcmip.md
         - file: campaigns/acloud.md
         - file: campaigns/pascal.md
+        - file: campaigns/bacsam2.md
+        - file: campaigns/sanat.md
     - file: 03_platforms.md
       children:
         - file: platforms/halo.md
@@ -49,10 +51,12 @@ project:
     - file: 04_instruments.md
       children:
         - file: instruments/smart_halo.md
+        - file: instruments/tbird.md
     - file: 05_models.md
     - file: 06_software.md
       children:
         - file: software/storypy.md
+        - file: software/polair.md
     - file: 07_datasets.md
     - file: 08_example_notebooks.md
       children:
@@ -67,6 +71,7 @@ project:
         - file: example-notebooks/Sentinel2_melt_pond_fraction_example.ipynb
         - file: example-notebooks/ac3_notebook_cyclones.ipynb
         - file: example-notebooks/acloud_smart_irradiances_example.ipynb
+        - file: example-notebooks/bacsam2_quicklooks.ipynb
     - file: 09_short_bytes.md
       children:
           - file: short_bytes/ac3_shortbyte_netcdf_metadata.ipynb
