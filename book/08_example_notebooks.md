@@ -28,6 +28,7 @@ The other option is to fork the whole repository, directly add a notebook in the
 ## Notebooks
 
 - [](./example-notebooks/ac3_notebook_cyclones.ipynb)
+- [](./example-notebooks/acloud_libradtran_solar_cre_example.ipynb)
 - [](./example-notebooks/acloud_smart_irradiances_example.ipynb)
 - [](./example-notebooks/atmospheric_river_shapes.ipynb)
 - [](./example-notebooks/halo_ac3_smart_ac3_example.ipynb)

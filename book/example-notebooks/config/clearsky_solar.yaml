@@ -1,0 +1,55 @@
+# pyRadtran configuration for a clear-sky broadband solar simulation along the
+# ACLOUD flight track. Adjust the paths in the `paths` block to point at your
+# own libRadtran installation (e.g. on a compute server such as monsun).
+execution:
+  cleanup_temp_files: false
+  debug_mode: false
+  max_workers: 12
+  timeout_seconds: 300
+
+output:
+  filename_prefix: acloud_clearsky
+  filename_suffix: _results.nc
+  netcdf_encoding:
+    complevel: 5
+    zlib: true
+
+paths:
+  # ---- edit these to match your libRadtran installation ----
+  libradtran_bin: /opt/libRadtran-2.0.6/bin/uvspec
+  libradtran_data: /opt/libRadtran-2.0.6/data
+  atmosphere_profile: /opt/libRadtran-2.0.6/data/atmmod/afglss.dat   # subarctic summer
+  solar_spectrum: /opt/libRadtran-2.0.6/data/solar_flux/NewGuey2003.dat
+  output_dir: pyradtran_output
+  working_dir: pyradtran_work
+
+simulation_defaults:
+  source: solar
+  rte_solver: twostr
+  mol_abs_param: reptran coarse          # correlated-k band model -> fast broadband solar
+  integrate_wavelength: false      # return the band-integrated broadband irradiance
+  wavelength_nm:
+    - 290
+    - 4500
+  # The clear-sky downward irradiance is almost insensitive to the surface
+  # albedo; the upward (and hence the net) clear-sky flux is reconstructed
+  # analytically in the notebook from the measured broadband albedo.
+  albedo_value: 0.15
+  ozone_du: 300.0
+  h2o_source: fixed
+  h2o_mm: 0
+  sza: null                       # auto-computed from time + latitude/longitude
+  output_altitudes_km:
+    - 0.1                         # approximate altitude of the low-level legs
+  output_columns:
+    - zout
+    - lambda
+    - sza
+    - edir
+    - edn
+    - eglo
+    - eup
+    - enet
+    - albedo
+  clouds:
+    enabled: false                # clear-sky reference simulation

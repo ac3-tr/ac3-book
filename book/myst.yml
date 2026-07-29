@@ -67,6 +67,7 @@ project:
         - file: example-notebooks/Sentinel2_melt_pond_fraction_example.ipynb
         - file: example-notebooks/ac3_notebook_cyclones.ipynb
         - file: example-notebooks/acloud_smart_irradiances_example.ipynb
+        - file: example-notebooks/acloud_libradtran_solar_cre_example.ipynb
     - file: 09_short_bytes.md
       children:
           - file: short_bytes/ac3_shortbyte_netcdf_metadata.ipynb
