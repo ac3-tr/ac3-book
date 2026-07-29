@@ -17,3 +17,11 @@ StoryPy -  analyzing dynamical climate storylines
 [Go directly to GitHub](https://github.com/LIM-Climate-Causality/storypy)
 :::
 
+:::{card}
+:link: /software/polair
+
+polair -  processing atmospheric aircraft data
+
+[Go directly to GitHub](https://github.com/LauraKoehler/polair)
+:::
+
