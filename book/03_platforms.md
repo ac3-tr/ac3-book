@@ -31,7 +31,7 @@ The (AC)³ project utilizes multiple measurement platforms.
 :link: /polar6
 :footer: Photo: Laura Köhler, AWI (CC BY-NC-ND 4.0)
 
-![Polar6](./figures/Polar6_web.jpeg)
+![Polar6](./figures/Polar6_Bild_web.jpeg)
 
 :::
 
