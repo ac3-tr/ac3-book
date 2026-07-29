@@ -37,3 +37,4 @@ The other option is to fork the whole repository, directly add a notebook in the
 - [](./example-notebooks/PS106_cloudnet_target_classification.ipynb)
 - [](./example-notebooks/satellite_seaice_concentration_example.ipynb)
 - [](./example-notebooks/Sentinel2_melt_pond_fraction_example.ipynb)
+- [](./example-notebooks/bacsam2_quicklooks.ipynb)
