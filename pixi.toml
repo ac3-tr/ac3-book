@@ -2,7 +2,7 @@
 authors = ["Johannes Röttenbacher <jr-alias@posteo.de>"]
 channels = ["conda-forge"]
 name = "ac3-book"
-platforms = ["linux-64", "win-64"]
+platforms = ["linux-64", "win-64", "osx-64"]
 version = "1.0.0"
 
 [tasks]
