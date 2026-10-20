@@ -5,14 +5,41 @@ authors: Laura Köhler
 # BACSAM II 2024
 ## Turbulence and aerosol in situ aircraft observations in the Arctic with Polar 6 and T-Bird
 
-Processing documentation for the BACSAM II aircraft campaign with Polar 6 in spring 2024.
+[![DOI](https://img.shields.io/badge/DOI-10.1594%2FPANGAEA.995979-blue)](https://doi.pangaea.de/10.1594/PANGAEA.995979)
+
+The BACSAM II aircraft campaign with Polar 6 and T-Bird took place from 3 April to 2 May, 2024. It was based in Longyearbyen, Svalbard. The Polar 6 was equipped with aerosol and turbulence instrumentation. 
+
+## Flight tracks
+
+![image](.figures/BACSAM2_flighttracks.png)
+
+The figure shows the eleven research flight during BACSAM II with the color denoting the flight altitude. Most of the flights took place in the vicinity of Svalbard over the sea ice, the marginal ice zone, and the open ocean. Research flight RF04 consists of three parts, named 40, 41, and 42 in the data sets, respectively. Flight 40 was the transit from Longyearbyen to Station North, Greenland. After refueling, the actual research flight 41 took place going to the north up to 85˚N. After a second refueling at Station North, the transit back to Longyearbyen has the number 42. RF11 focused on the Isfjorden and didn't get out on the ocean. The last panel shows all flights together. 
+
+## Instrumentation
+
+Included instruments in this repository are:
+- 100 Hz meteorology from noseboom
+- 100 Hz meteorology from T-Bird
+- Partector Polar 6
+- Partector T-Bird
+- MCPC Polar 6
+- Irradiance Polar 6
+- KT19 Polar 6
+
+## Processing
+
+All data were processed with the polair package [1]. This repository also contains a notebook for quicklooks (notebooks/Quicklooks_bacsam2.ipynb). The turbulence calibration steps are preformed in notebooks/Manual_processing_steps_bacsam2.ipynb.
 
 To process all flights at once, use
 ```
 for f in 1 2 3 40 41 42 5 6 7 8 9 10 11; do polair <command> -f $f -c <config>; done
 ```
 
+[1] Köhler, L. (2026). polair (Version v1.0.4) [Computer software]. https://doi.org/10.5281/zenodo.21703863
+
 ## Flight segments
+
+Flight segments are added as an additional coordinate to the data sets called "segment". If you use xarray, you can e.g. use groupby to look at specific segments. Please also note that the wind processing only gives reliable results on straight segments, i.e. not in turns or curves.
 
 <table style="font-size:90%; border-collapse:collapse;">
 

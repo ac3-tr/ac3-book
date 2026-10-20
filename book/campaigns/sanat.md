@@ -5,9 +5,40 @@ authors: Laura Köhler
 # SANAT 2026 
 ## Turbulence and aerosol in situ aircraft observations in Antarctica
 
-Processing documentation for the SANAT aircraft campaign with Polar 6
+The SANAT aircraft campaign with Polar 6 and T-Bird took place from 3 January to 16 February, 2026. It was based at the Neumayer III station in Antarctica. The Polar 6 was equipped with aerosol and turbulence instrumentation. 
+
+## Flight tracks
+
+![image](.figures/SANAT_flighttracks.png)
+
+The figure shows the eleven research flight during SANAT with the color denoting the flight altitude. Most of the flights took place in the vicinity of the Neumayer station over open water or the continent. Research flights RF01, RF02, and RF03 went to the Kohnen station where the Polar 6 was refueling. Thus, RF01 consists of two parts, 11 and 12. The same holds for RF02 as well with the parts 21 and 22. RF03 went further south and thus, it consists of 31, 32, 33 where 32 is the part south of the Kohnen station and 31 and 33 are the transits from and to Neumayer. The last panel shows all flights together. 
+
+## Instrumentation
+
+Included instruments in this repository are:
+- 100 Hz meteorology from noseboom
+- 100 Hz meteorology from T-Bird
+- Partector Polar 6
+- Partector T-Bird
+- MCPC Polar 6
+- UHSAS Polar 6
+- Irradiance Polar 6
+- KT19 Polar 6
+
+## Processing
+
+All data were processed with the polair package [1]. This repository also contains a notebook for quicklooks (notebooks/Quicklooks_sanat.ipynb). The turbulence calibration steps are preformed in notebooks/Manual_processing_steps_sanat.ipynb.
+
+To process all flights at once, use
+```
+for f in 11 12 21 22 31 32 33 4 5 6 7 8 9 10; do polair <command> -f $f -c <config>; done
+```
+
+[1] Köhler, L. (2026). polair (Version v1.0.4) [Computer software]. https://doi.org/10.5281/zenodo.21703863
 
 ## Flight segments
+
+Flight segments are added as an additional coordinate to the data sets called "segment". If you use xarray, you can e.g. use groupby to look at specific segments. Please also note that the wind processing only gives reliable results on straight segments, i.e. not in turns or curves.
 
 <table style="font-size:90%; border-collapse:collapse;">
 
