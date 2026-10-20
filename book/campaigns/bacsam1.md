@@ -9,7 +9,7 @@ The BACSAM I aircraft campaign with Polar 6 and T-Bird took place from 26 Septem
 
 ## Flight tracks
 
-![image](.figures/BACSAM1_flighttracks.png)
+![image](../figures/BACSAM1_flighttracks.png)
 
 The figure shows the eleven research flight during BACSAM I with the color denoting the flight altitude. All flights took place in the vicinity of Svalbard. The last panel shows all flights together. 
 

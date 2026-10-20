@@ -1,6 +1,6 @@
 # Polar 6
 
-Research aircraft Polar 5 and Polar 6: [](https://www.awi.de/en/fleet-stations/aircraft/polar-5-6.html)
+Research aircraft Polar 5 and Polar 6: [AWI website polar aircraft](https://www.awi.de/en/fleet-stations/aircraft/polar-5-6.html)
 
 ## Campaigns
 
@@ -10,7 +10,7 @@ Research aircraft Polar 5 and Polar 6: [](https://www.awi.de/en/fleet-stations/a
 :header: **SANAT**
 :link: /sanat
 
-![SANAT campaign logo](./logos/sanat_logo.png)
+![SANAT campaign logo](../logos/sanat_logo.png)
 
 :::
 
@@ -18,7 +18,7 @@ Research aircraft Polar 5 and Polar 6: [](https://www.awi.de/en/fleet-stations/a
 :header: **BACSAM II**
 :link: /bacsam2
 
-![BACSAM2 campaign logo](./logos/bacsam_logo)
+![BACSAM2 campaign logo](../logos/bacsam_logo)
 
 :::
 
@@ -26,7 +26,7 @@ Research aircraft Polar 5 and Polar 6: [](https://www.awi.de/en/fleet-stations/a
 :header: **BACSAM I**
 :link: /bacsam1
 
-![BACSAM1 campaign logo](./logos/bacsam_logo)
+![BACSAM1 campaign logo](../logos/bacsam_logo)
 
 :::
  

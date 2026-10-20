@@ -11,7 +11,7 @@ The BACSAM II aircraft campaign with Polar 6 and T-Bird took place from 3 April 
 
 ## Flight tracks
 
-![image](.figures/BACSAM2_flighttracks.png)
+![image](../figures/BACSAM2_flighttracks.png)
 
 The figure shows the eleven research flight during BACSAM II with the color denoting the flight altitude. Most of the flights took place in the vicinity of Svalbard over the sea ice, the marginal ice zone, and the open ocean. Research flight RF04 consists of three parts, named 40, 41, and 42 in the data sets, respectively. Flight 40 was the transit from Longyearbyen to Station North, Greenland. After refueling, the actual research flight 41 took place going to the north up to 85˚N. After a second refueling at Station North, the transit back to Longyearbyen has the number 42. RF11 focused on the Isfjorden and didn't get out on the ocean. The last panel shows all flights together. 
 

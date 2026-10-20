@@ -9,7 +9,7 @@ The SANAT aircraft campaign with Polar 6 and T-Bird took place from 3 January to
 
 ## Flight tracks
 
-![image](.figures/SANAT_flighttracks.png)
+![image](../figures/SANAT_flighttracks.png)
 
 The figure shows the eleven research flight during SANAT with the color denoting the flight altitude. Most of the flights took place in the vicinity of the Neumayer station over open water or the continent. Research flights RF01, RF02, and RF03 went to the Kohnen station where the Polar 6 was refueling. Thus, RF01 consists of two parts, 11 and 12. The same holds for RF02 as well with the parts 21 and 22. RF03 went further south and thus, it consists of 31, 32, 33 where 32 is the part south of the Kohnen station and 31 and 33 are the transits from and to Neumayer. The last panel shows all flights together. 
 
