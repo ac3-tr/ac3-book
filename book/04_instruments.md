@@ -14,10 +14,10 @@ The (AC)³ project utilizes multiple measurement instruments. Some on different 
 :::
 
 :::{card}
-:header: 
-:link:
-
-
+:header: **T-Bird**
+:link: ./instruments/tbird.md
+:footer: Photo: Laura Köhler (CC BY 4.0)
+![T-Bird](./figures/T-Bird_web.jpeg) 
 :::
 
 :::{card}

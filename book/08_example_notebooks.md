@@ -22,7 +22,8 @@ You can find a template jupyter notebook [here](#template) and download it with 
 The other option is to fork the whole repository, directly add a notebook in the books structure and open a pull request.
 
 ```{include} ../README.md
-:lines: 37 - 49
+:start-after: description below
+:end-before: References and Inspiration
 ```
 
 ## Notebooks
@@ -38,3 +39,5 @@ The other option is to fork the whole repository, directly add a notebook in the
 - [](./example-notebooks/PS106_cloudnet_target_classification.ipynb)
 - [](./example-notebooks/satellite_seaice_concentration_example.ipynb)
 - [](./example-notebooks/Sentinel2_melt_pond_fraction_example.ipynb)
+- [](./example-notebooks/bacsam2_quicklooks.ipynb)
+- [](./example-notebooks/fesom_recom_analysis.ipynb)
