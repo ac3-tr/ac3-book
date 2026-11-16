@@ -1,6 +1,6 @@
 # Data Sets
 
-Observational data sets are mainly published on [PANGAEA](https://pangaea.de) and can be found here: https://data.ac3-tr.com
+Observational data sets are mainly published on [PANGAEA](https://pangaea.de) and can be found here: https://data.ac3-tr.de
 
 Code publications and model output data are published on [Zenodo](https://zenodo.org) and can be found here: https://zenodo.org/communities/crc172-ac3
 

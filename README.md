@@ -36,10 +36,15 @@ This book is being build as a place of exchange for researches inside and outsid
   - [ ] P5
   - [ ] P6
   - [ ] Polarstern
+    - [ ] ROV
+    - [ ] Panomax
+    - [ ] thermosalinograph
   - [ ] Spaceborne
     - [ ] CALIOP
     - [ ] MISR
+    - [ ] AMSR2
   - [ ] Ground based
+    - [ ] IMB (buoys)
 - [ ] Add short model descriptions
   - [ ] ICON
   - [ ] ICON-LEM
