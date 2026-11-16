@@ -22,4 +22,13 @@ In meteorology and other earth sciences good data sets come with a wealth of met
 
 :::
 
+(netcdf-save)=
+:::{card} 
+:header: **Saving to NetCDF**
+:link: short_bytes/ac3_shortbyte_save_to_netcdf.ipynb
+ 
+In this Short Byte we will show you how to save a data set to a netCDF file on disk, while keeping all the important metadata encoded in the file.
+
+:::
+
 ::::
