@@ -35,14 +35,15 @@ project:
     - file: 02_campaigns.md
       children:
         - file: campaigns/compex.md
+        - file: campaigns/sanat.md
+        - file: campaigns/bacsam2.md
+        - file: campaigns/bacsam1.md
         - file: campaigns/haloac3.md
         - file: campaigns/mosaic.md
         - file: campaigns/aflux.md
         - file: campaigns/pamarcmip.md
         - file: campaigns/acloud.md
-        - file: campaigns/pascal.md
-        - file: campaigns/bacsam2.md
-        - file: campaigns/sanat.md
+        - file: campaigns/pascal.md 
     - file: 03_platforms.md
       children:
         - file: platforms/halo.md
